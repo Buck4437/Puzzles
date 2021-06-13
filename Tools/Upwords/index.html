@@ -15,18 +15,23 @@
                 <div class="btn-con">
                     <div v-for="(move, i) in parsed" class="btn-con">
                         <button v-for="(turn, j) in move"
-                                @click="select(i, j)"
-                                :class="{'isActive': selectedMove[0] === i && selectedMove[1] === j}">
+                                @click="select(i+1, j+1)"
+                                :class="{'isActive': selectedMove[0] === i+1 && selectedMove[1] === j+1}">
                             Move {{i+1}}{{toLetter(j+1)}}
                         </button>
                     </div>
                 </div>
                 <table>
-                    <tr v-for="i in 6">
-                        <td v-for="j in 6">
-                            {{getTile(j, i).letter}}
-                            <div class="height">
-                                {{getTile(j, i).height}}
+                    <tr v-for="i in 7">
+                        <td v-for="j in 7">
+                            <div v-if="i === 1 || j === 1">
+                                {{number(i - 1, j - 1)}}
+                            </div>
+                            <div v-else>
+                                {{getTile(j-1, i-1).letter}}
+                                <div class="height">
+                                    {{getTile(j-1, i-1).height}}
+                                </div>
                             </div>
                         </td>
                     </tr>

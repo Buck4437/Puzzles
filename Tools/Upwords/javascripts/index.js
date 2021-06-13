@@ -3,7 +3,7 @@ var app = new Vue({
     data: {
         textBox: "W24, A34",
         input: "",
-        selectedMove: [0, 0],
+        selectedMove: [1, 1],
         hasError: false,
         errorText: "",
         saveName: "Buck4437_Puzzles_PuzzleTools_Upwords_Save"
@@ -42,6 +42,11 @@ var app = new Vue({
         }
     },
     methods: {
+        number(i, j) {
+            if (i === j) return "";
+            if (i === 0) return j;
+            return i;
+        },
         coordToString(str) {
             return coordToString(str);
         },
@@ -79,6 +84,6 @@ var app = new Vue({
             this.textBox = localStorage.getItem(this.saveName)
         }
         this.submit();
-        this.select(0, 0);
+        this.select(1, 1);
     }
 })
