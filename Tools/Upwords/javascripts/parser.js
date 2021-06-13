@@ -45,8 +45,10 @@ function parser(text = "") {
             let turn = [];
             for (let tile of turnText.split(",")) {
                 try {
-                    let tileParsed = tileParser(tile);
-                    turn.push(tileParsed);
+                    if (tile.length !== 0) {
+                        let tileParsed = tileParser(tile);
+                        turn.push(tileParsed);
+                    }
                 } catch (e) {
                     throw (e);
                 }
