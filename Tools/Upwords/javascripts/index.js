@@ -5,7 +5,8 @@ var app = new Vue({
         input: "",
         selectedMove: [0, 0],
         hasError: false,
-        errorText: ""
+        errorText: "",
+        saveName: "Buck4437_Puzzles_PuzzleTools_Upwords_Save"
     },
     computed: {
         parsed() {
@@ -35,6 +36,9 @@ var app = new Vue({
             } catch (e) {
                 this.setError(e);
             }
+        },
+        textBox(data) {
+            localStorage.setItem(this.saveName, data);
         }
     },
     methods: {
@@ -71,6 +75,9 @@ var app = new Vue({
         }
     },
     created() {
+        if (localStorage.getItem(this.saveName) !== null) {
+            this.textBox = localStorage.getItem(this.saveName)
+        }
         this.submit();
         this.select(0, 0);
     }
