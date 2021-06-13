@@ -3,7 +3,7 @@ var app = new Vue({
     data: {
         textBox: "W24, A34",
         input: "",
-        selectedMove: [1, 1],
+        selectedMove: [0, 0],
         hasError: false,
         errorText: "",
         saveName: "Buck4437_Puzzles_PuzzleTools_Upwords_Save"
@@ -84,6 +84,6 @@ var app = new Vue({
             this.textBox = localStorage.getItem(this.saveName)
         }
         this.submit();
-        this.select(1, 1);
+        this.select(0, 0);
     }
 })

@@ -15,8 +15,8 @@
                 <div class="btn-con">
                     <div v-for="(move, i) in parsed" class="btn-con">
                         <button v-for="(turn, j) in move"
-                                @click="select(i+1, j+1)"
-                                :class="{'isActive': selectedMove[0] === i+1 && selectedMove[1] === j+1}">
+                                @click="select(i, j)"
+                                :class="{'isActive': selectedMove[0] === i && selectedMove[1] === j}">
                             Move {{i+1}}{{toLetter(j+1)}}
                         </button>
                     </div>
