@@ -19,6 +19,10 @@ textarea {
     resize: none;
 }
 
+.board {
+    padding: 0 20px;
+}
+
 .btn-con {
     display: flex;
     flex-direction: row;

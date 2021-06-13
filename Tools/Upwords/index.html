@@ -11,7 +11,7 @@
                 <textarea v-model="textBox" placeholder="Enter text..."></textarea>
                 <button @click="submit">Submit</button>
             </div>
-            <div v-if="!hasError">
+            <div v-if="!hasError" class="board">
                 <div class="btn-con">
                     <div v-for="(move, i) in parsed" class="btn-con">
                         <button v-for="(turn, j) in move"
