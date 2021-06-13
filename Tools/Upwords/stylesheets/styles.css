@@ -9,7 +9,7 @@
     height: 90vh;
 }
 
-#app div {
+#app>div {
     flex-grow: 1;
 }
 
@@ -23,9 +23,14 @@ textarea {
     padding: 0 20px;
 }
 
+.btn-outer-con {
+    padding: 0px 5px;
+}
+
 .btn-con {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 

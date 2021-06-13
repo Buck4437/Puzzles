@@ -13,7 +13,7 @@
             </div>
             <div v-if="!hasError" class="board">
                 <div class="btn-con">
-                    <div v-for="(move, i) in parsed" class="btn-con">
+                    <div v-for="(move, i) in parsed" class="btn-con btn-outer-con">
                         <button v-for="(turn, j) in move"
                                 @click="select(i, j)"
                                 :class="{'isActive': selectedMove[0] === i && selectedMove[1] === j}">
