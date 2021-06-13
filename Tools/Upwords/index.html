@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Upwords generator</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+    </head>
+    <body>
+        <div id="app">
+            <div>
+                <textarea v-model="textBox" placeholder="Enter text..."></textarea>
+                <button @click="submit">Submit</button>
+            </div>
+            <div v-if="!hasError">
+                <div class="btn-con">
+                    <div v-for="(move, i) in parsed" class="btn-con">
+                        <button v-for="(turn, j) in move" @click="select(i, j)">
+                            Move {{i+1}}{{toLetter(j+1)}}
+                        </button>
+                    </div>
+                </div>
+                <table>
+                    <tr v-for="i in 6">
+                        <td v-for="j in 6">
+                            {{getTile(j, i).letter}}
+                            <div class="height">
+                                {{getTile(j, i).height}}
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div v-else>
+                {{errorText}}
+            </div>
+        </div>
+    </body>
+    <script src="javascripts/libraries/vue.js"></script>
+    <script src="javascripts/parser.js"></script>
+    <script src="javascripts/index.js"></script>
+</html>

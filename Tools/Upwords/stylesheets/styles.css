@@ -1,0 +1,42 @@
+* {
+    font-family: monospace;
+    color: black;
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+}
+
+#app div {
+    flex-grow: 1;
+}
+
+textarea {
+    height: 100%;
+    width: 50%;
+    resize: none;
+}
+
+.btn-con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+table td {
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+}
+
+.height {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 17px;
+}
