@@ -40,3 +40,8 @@ table td {
     bottom: 0;
     font-size: 17px;
 }
+
+button.isActive {
+    background-color: black;
+    color: white;
+}
