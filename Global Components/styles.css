@@ -1,3 +1,7 @@
 .COMPONENT.answer-checker {
     padding: 8px 0px;
 }
+
+.COMPONENT.answer-checker button {
+    cursor: pointer;
+}
