@@ -3,6 +3,10 @@
     color: black;
 }
 
+body {
+    margin: 16px;
+}
+
 #app {
 }
 
@@ -11,10 +15,19 @@
     max-width: 70vw;
 }
 
-table td {
+table {
+    border-collapse: collapse;
+    margin: 40px;
+}
+
+td {
     width: 20px;
     height: 20px;
     border: none;
     text-align: center;
-    position: relative;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 16px;
 }
