@@ -46,7 +46,7 @@ var app = new Vue({
         flavourText: `
         I tried to tetris all pieces in, but they seemed to be in an odd shape.
         I checked every piece carefully, from top to bottom, from left to right.
-        After eliminating all the pieces, I turned my attention to the remains.`,
+        Then I eliminated all the pieces.`,
         clues: [
             "Lobster relative",
             "Inferno",

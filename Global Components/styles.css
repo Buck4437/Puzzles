@@ -12,6 +12,7 @@
 
 .COMPONENT.base-puzzle .flavour-text {
     font-style: italic;
+    padding-bottom: 32px;
 }
 
 .SUBCOMPONENT.base-puzzle.answer-checker {
