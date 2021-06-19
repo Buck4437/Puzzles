@@ -45,8 +45,8 @@ var app = new Vue({
         answer: "HARD DROP",
         flavourText: `
         I tried to tetris all pieces in, but they seemed to be in an odd shape.
-        Before eliminating them, I checked every piece
-        left-to-right, top-to-bottom.`,
+        After checking them left-to-right, top-to-bottom,
+        I removed them from the board.`,
         clues: [
             "Lobster relative",
             "Inferno",
@@ -59,14 +59,14 @@ var app = new Vue({
             "Zoom or expert",
         ],
         wordSearch:
-        `ACJOLEAT
-        IHNONKLA
-        NKIDHTME
-        TLNREOOL
-        CRAMLISE
-        BNOILNIN
-        WHSTALNK
-        TIZLYIFT`
+        `ACJOTCRA
+        IHNONBLA
+        NKIDLEAT
+        ELNTRKOM
+        INSIOLMI
+        NNKSTIOL
+        WHANFTTE
+        LIZYHELL`
     }
 })
 
@@ -84,23 +84,24 @@ Zoom or Expert: Whiz
 
 /*
 Board:
-..JOLEA.
-.HN..K..
-.KI.H.M.
-.LN.E.OL
-CRA.L.SE
-B...L.IN
-WH...L.K
-.IZ..IFT
 
-AC.....T
-I..ON.LA
-N..D.T.E
-T..R.O..
-...M.I..
-.NOI.N..
-..STA.N.
-T..LY...
+		J	O		C	R	A
+	H	N			B
+	K	I		L	E	A
+	L	N	T		K
+		S	I		L	M
+	N	K			I	O	L
+W	H			F	T		E
+	I	Z		H	E	L	L
+
+A	C			T
+I			O	N		L	A
+N			D				T
+E			T	R		O	M
+I	N			O			I
+N			S	T
+		A	N			T
+L			Y
 
 ACTION LAND TETROMINO INSTANTLY
 => Hard drop
