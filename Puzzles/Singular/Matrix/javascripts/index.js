@@ -3,7 +3,7 @@ var app = new Vue({
     data: {
         title: "Matrix",
         flavourText: `
-        I tried to tetris all pieces in, but they seem to be in an odd shape.
+        I tried to tetris all pieces in, but they seemed to be in an odd shape.
         I checked every pieces carefully, from top to bottom, from left to right.
         After eliminating all the pieces, I turned my attention to the remains.`,
         clues: [
