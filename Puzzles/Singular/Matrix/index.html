@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Tetromino</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="stylesheet" href="../../../Global Components/styles.css">
+    </head>
+    <body>
+        <div id="app">
+            <h1>{{title}}</h1>
+            <answer-checker answer="HARD DROP"></answer-checker>
+            <div class="flavour-text">
+                {{flavourText}}
+            </div>
+            <table>
+                <tr v-for="row in wordSearch.split('\n')">
+                    <td v-for="c in row.trim().split('')">{{c}}</td>
+                </tr>
+            </table>
+            <ul>
+                <li v-for="clue in clues">{{clue}}</li>
+            </ul>
+        </div>
+    </body>
+    <script src="../../../Libraries/vue.js"></script>
+    <script src="../../../Global Components/Components/AnswerChecker.js"></script>
+    <script src="javascripts/index.js"></script>
+</html>
