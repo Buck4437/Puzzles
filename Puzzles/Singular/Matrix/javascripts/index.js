@@ -29,6 +29,37 @@ var app = new Vue({
     }
 })
 
+/* Heavy spoilers below */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Answers:
 Lobster relative: Crab
 Inferno: Hell
