@@ -3,28 +3,22 @@
     color: black;
 }
 
-body {
-    margin: 16px;
-}
-
-.flavour-text {
-    font-style: italic;
-    max-width: 70vw;
-}
-
 table {
     border-collapse: collapse;
-    margin: 40px;
+    margin: 16px auto;
 }
 
 td {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border: none;
     text-align: center;
 }
 
+ul {
+    padding-left: 0px;
+}
+
 ul li {
     list-style-type: none;
-    font-size: 16px;
 }

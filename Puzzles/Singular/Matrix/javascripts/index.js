@@ -1,34 +1,3 @@
-var app = new Vue({
-    el: "#app",
-    data: {
-        title: "Matrix",
-        flavourText: `
-        I tried to tetris all pieces in, but they seemed to be in an odd shape.
-        I checked every piece carefully, from top to bottom, from left to right.
-        After eliminating all the pieces, I turned my attention to the remains.`,
-        clues: [
-            "Lobster relative",
-            "Inferno",
-            "Singer Sargent",
-            "Oven for pottery",
-            "Titanic's problem",
-            "Jack up",
-            "SI unit for amount",
-            "Send to the bottom",
-            "Zoom or expert",
-        ],
-        wordSearch:
-        `ACJOLEAT
-        IHNONKLA
-        NKIDHTME
-        TLNREOOL
-        CRAMLISE
-        BNOILNIN
-        WHSTALNK
-        TIZLYIFT`
-    }
-})
-
 /* Heavy spoilers below */
 
 
@@ -59,6 +28,47 @@ var app = new Vue({
 
 
 
+
+
+
+
+
+
+
+
+
+
+var app = new Vue({
+    el: "#app",
+    data: {
+        title: "Matrix",
+        answer: "HARD DROP",
+        flavourText: `
+        I tried to tetris all pieces in, but they seemed to be in an odd shape.
+        I checked every piece carefully, from top to bottom, from left to right.
+        After eliminating all the pieces, I turned my attention to the remains.`,
+        clues: [
+            "Lobster relative",
+            "Inferno",
+            "Singer Sargent",
+            "Oven for pottery",
+            "Titanic's problem",
+            "Jack up",
+            "SI unit for amount",
+            "Send to the bottom",
+            "Zoom or expert",
+        ],
+        wordSearch:
+        `ACJOLEAT
+        IHNONKLA
+        NKIDHTME
+        TLNREOOL
+        CRAMLISE
+        BNOILNIN
+        WHSTALNK
+        TIZLYIFT`
+    }
+})
 
 /* Answers:
 Lobster relative: Crab

@@ -1,4 +1,4 @@
-Vue.component("answer-checker", {
+let answerChecker = {
     props: {
         answer: String
     },
@@ -22,11 +22,30 @@ Vue.component("answer-checker", {
         }
     },
     template: `
-    <div class="COMPONENT answer-checker">
+    <div class="SUBCOMPONENT base-puzzle answer-checker">
         <input v-model="input">
         </input>
         <button @click="check">
             Check your answer
         </button>
+    </div>`
+}
+
+Vue.component("base-puzzle", {
+    components: {
+        answerChecker
+    },
+    props: {
+        title: String,
+        answer: String
+    },
+    template: `
+    <div class="COMPONENT base-puzzle">
+        <div class="title">{{title}}</div>
+        <answer-checker :answer="answer" class="checker"></answer-checker>
+        <div class="flavour-text">
+            <slot name="flavour-text"/>
+        </div>
+        <slot></slot>
     </div>`
 })
