@@ -88,7 +88,7 @@ Board:
 		J	O		C	R	A
 	H	N			B
 	K	I		L	E	A
-	L	N	T		K
+	L	N			K
 		S	I		L	M
 	N	K			I	O	L
 W	H			F	T		E
