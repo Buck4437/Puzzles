@@ -44,7 +44,8 @@ var app = new Vue({
         title: "Binder",
         answer: "COVALENT BOND",
         flavourText: `
-        I added some chemicals to combine the reactants together.
+        To combine the reactants and complete the reaction,
+        I added some extra chemicals. 
         How do the reactants bind with each other?`,
         sections: [
             {
