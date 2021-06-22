@@ -45,7 +45,7 @@ var app = new Vue({
         answer: "COVALENT BOND",
         flavourText: `
         To combine the reactants and complete the reaction,
-        I added some extra chemicals. 
+        I added some extra chemicals.
         How do the reactants bind with each other?`,
         sections: [
             {
@@ -66,13 +66,13 @@ var app = new Vue({
                     "Fog (4)",
                     "Close by (4)",
                     "Earthbound character (4)",
-                    "Soccer game (abbr.) (3)",
+                    "Latin foot (3)",
                     "Advantage (3)",
                     "Tirade (4)",
                     "To grade (4)",
                     "____ a bell (4)",
                     "Location (4)",
-                    "Opposite of super (3)",
+                    "Opposite of prefix super (3)",
                     "1.17, e.g. (abbr.) (3)",
                     "Keen intelligence (3)"
                 ]
