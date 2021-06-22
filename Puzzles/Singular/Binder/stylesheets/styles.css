@@ -1,0 +1,19 @@
+* {
+    font-family: monospace;
+    color: black;
+}
+
+.section-header {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 0px;
+    width: auto;
+    display: inline-block;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: left;
+}
