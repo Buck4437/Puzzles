@@ -85,7 +85,7 @@ var app = new Vue({
                     "Remove",
                     "A psychologist",
                     "Likely",
-                    "Stupidity",
+                    "Silliness",
                     "A mineral",
                     "Worrying",
                     "Transportation mode",
