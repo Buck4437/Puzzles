@@ -90,7 +90,7 @@ var app = new Vue({
                     "Worrying",
                     "Transportation mode",
                     "Negative person",
-                    "Whip"
+                    "To whip"
                 ]
             }
         ]
