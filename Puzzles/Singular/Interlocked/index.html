@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Interlocked</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="stylesheet" href="./../../../Global Components/styles.css">
+    </head>
+    <body>
+        <div id="app">
+            <base-puzzle :title="title" :answer="answer">
+                <div v-for="(name, i) of puzzles">
+                    <div>{{name}}</div>
+                    <img :src="'images/'+(i+1)+'.png'" alt="">
+                </div>
+            </base-puzzle>
+        </div>
+    </body>
+    <script src="../../../Libraries/vue.js"></script>
+    <script src="../../../Global Components/Components/BasePuzzle.js"></script>
+    <script src="javascripts/index.js"></script>
+</html>
