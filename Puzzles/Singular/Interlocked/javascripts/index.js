@@ -47,11 +47,11 @@ var app = new Vue({
             "Futoshiki",
             "Jigsaw",
             "Kakuro",
-            "Kenken",
+            "KenKen",
             "Killer",
+            "Skyscrapers",
             "Str8ts",
             "Sudoku 6x6",
-            "Skyscrapers",
             "Star Sums Sudoku"
         ]
     }

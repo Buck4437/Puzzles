@@ -10,7 +10,7 @@
     <body>
         <div id="app">
             <base-puzzle :title="title" :answer="answer">
-                <div v-for="(name, i) of puzzles">
+                <div class="con" v-for="(name, i) of puzzles">
                     <div>{{name}}</div>
                     <img :src="'images/'+(i+1)+'.png'" alt="">
                 </div>

@@ -3,6 +3,10 @@
     color: black;
 }
 
+.con {
+    margin-bottom: 16px;
+}
+
 img {
     width: min(50vw, 50vh);
     height: min(50vw, 50vh);
