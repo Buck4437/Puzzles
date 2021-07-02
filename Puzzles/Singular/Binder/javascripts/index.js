@@ -80,6 +80,7 @@ var app = new Vue({
             {
                 name: "Products",
                 clues: [
+                    "Geometric Relationship",
                     "A computer program",
                     "Void",
                     "Remove",
