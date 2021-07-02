@@ -50,9 +50,9 @@ var app = new Vue({
             "Kenken",
             "Killer",
             "Str8ts",
-            "Sudoku (6x6)",
+            "Sudoku 6x6",
             "Skyscrapers",
-            "Sudoku (9x9)"
+            "Star Sums Sudoku"
         ]
     }
 })
