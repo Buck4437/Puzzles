@@ -52,7 +52,7 @@ var app = new Vue({
                 name: "Reactants",
                 clues: [
                     "Capable of (4)",
-                    "CS Lovelace (3)",
+                    "Computer Science Lovelace (3)",
                     "Invisible gas (3)",
                     "Liquor (abbr.) (3)",
                     "Symbol on slot machine (3)",
