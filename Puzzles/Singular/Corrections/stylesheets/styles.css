@@ -1,0 +1,20 @@
+* {
+    font-family: monospace;
+    color: black;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.passage {
+    min-width: 200px;
+    border: 2px solid black;
+    padding: 16px;
+    margin: 16px;
+    text-align: left;
+    font-size: 16px;
+}

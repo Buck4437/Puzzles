@@ -1,6 +1,6 @@
 let answerChecker = {
     props: {
-        answer: String
+        answer: [String, Object]
     },
     data() {
         return {
@@ -9,9 +9,20 @@ let answerChecker = {
     },
     methods: {
         check() {
-            if (this.strip(this.answer) === this.strip(this.input)) {
-                alert("Correct!");
+            let input = this.strip(this.input)
+            if (typeof this.answer === "string") {
+                if (this.strip(this.answer) === input) {
+                    alert("Correct!");
+                } else {
+                    alert("Incorrect!");
+                }
             } else {
+                for (let key in this.answer) {
+                    if (this.strip(key) === input) {
+                        alert(this.answer[key]);
+                        return;
+                    }
+                }
                 alert("Incorrect!");
             }
         },
@@ -37,7 +48,7 @@ Vue.component("base-puzzle", {
     },
     props: {
         title: String,
-        answer: String
+        answer: [String, Object]
     },
     template: `
     <div class="COMPONENT base-puzzle">
