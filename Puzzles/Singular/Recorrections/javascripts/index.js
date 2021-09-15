@@ -1,7 +1,7 @@
 var app = new Vue({
     el: "#app",
     data: {
-        title: "Corrections",
+        title: "Recorrections",
         answer: {
             "BLENDER": "You are close! What is the original word?",
             "BLUNDER": "Correct!",
