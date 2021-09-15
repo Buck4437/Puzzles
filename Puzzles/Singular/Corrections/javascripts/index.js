@@ -4,7 +4,8 @@ var app = new Vue({
         title: "Corrections",
         answer: {
             "BLENDER": "You are close! What is the original word?",
-            "BLUNDER": "Correct!"
+            "BLUNDER": "Correct!",
+            "ADUMBCARELESSMIXER": "You are on the right path!"
         },
         passages:
 `As the local scientists discovered an parallel universe, they launched a lung, unending project to stripe the veil from the universe and reveal the secret off the dimensions. As the news went out, all the influencers, from fastion designers to novelists, created excitement within the public. Realistic, baring with the responsibility to lead the way, had taken the job of realizing the truth. "To infinity and beyond" is the slogans of their company. They had to unearth the truth, for else the disappointment will overwhelm them. Eventually, with the finest resign and technology, they created a teleporter…
