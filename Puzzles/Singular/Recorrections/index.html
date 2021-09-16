@@ -9,7 +9,7 @@
     </head>
     <body>
         <div id="app">
-            <base-puzzle :title="title" :answer="answer">
+            <base-puzzle :title="title" :answer="answer" :nudge="nudge">
                 <div class="content">
                     <div v-for="passage in passages.split('\n\n\n')"
                          v-html="passage.replaceAll('\n', '<br>')"

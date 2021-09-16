@@ -11,8 +11,11 @@
 }
 
 .passage {
-    min-width: 200px;
-    padding: 16px;
-    text-align: left;
-    font-size: 16px;
+	min-width: 200px;
+	margin: 8px;
+	text-align: left;
+	font-size: 16px;
+	border: 2px solid black;
+	padding: 8px;
+	background-color: #FFE;
 }

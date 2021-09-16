@@ -12,7 +12,7 @@
 
 .COMPONENT.base-puzzle .flavour-text {
     font-style: italic;
-    padding-bottom: 32px;
+    padding-bottom: 8px;
 }
 
 .SUBCOMPONENT.base-puzzle.answer-checker {
@@ -21,4 +21,20 @@
 
 .SUBCOMPONENT.base-puzzle.answer-checker button {
     cursor: pointer;
+}
+
+.SUBCOMPONENT.base-puzzle.answer-checker .result {
+    padding-top: 4px;
+}
+
+.SUBCOMPONENT.base-puzzle.answer-checker .result.correct {
+    color: limegreen;
+}
+
+.SUBCOMPONENT.base-puzzle.answer-checker .result.incorrect {
+    color: red
+}
+
+.SUBCOMPONENT.base-puzzle.answer-checker .result.close {
+    color: orange
 }
