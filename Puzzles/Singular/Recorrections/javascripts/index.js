@@ -41,9 +41,3 @@ There was a sharpen turn in the battle. The life of the girl is at steak, under 
 Three people, sprong and smart, had volunteered to visit the unknown. They activated the machine, and as the moter turned and the cogs rotated, a portal gradually opened. They entered their venicles, turned on the engine, and fused the portal to reach the new dimension. Upon entry, they discovered the truth of parallel dimensions: one the surface, it seems like another universe, but it is merely holes in the fabric of spacetime. All kinds of objects from the universe fall into this world: video game cartridges, tombstones, shrines, desertors, wires, dinosaurs, windows... It is like a universal dictionary. The portal is yet another tunnel two this world, which had already collapsed. Now that they were stuck, they need to find a way to escape the glitched universe. They decided to pulley bits of materials from random machines and equipments lying around this underworld and assemble them into a new teleporter. The plan was effective. They assembled the teleporter and equipped with new knowledge, escaped the glitched world.`
     }
 })
-
-test =
-`test1
-test2
-
-test3`
