@@ -21,7 +21,7 @@ Beyond the chaos, we praise our lord!
 His, with his mighty power, gived us the divine gift of conscience!
 He stated de definite of good and evil, and he, the judge oof the world, separated us from chaos!
 He protected our based, our home from the evils!
-He repelled evil spirits out OF our heart and soul!
+He repelled evil spirits out off our heart and soul!
 Even when the nature disasters went against us when the earth shook, the storm struck and the sea roared, our Ford still protects us from defeat!
 Beyond the chaos, we praise our lord!
 
