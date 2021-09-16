@@ -8,7 +8,7 @@ var app = new Vue({
             "ADUMBCARELESSMIXER": "You are on the right path!"
         },
         passages:
-`As the local scientists discovered an parallel universe, they launched a lung, unending project to stripe the veil from the universe and reveal the secret off the dimensions. As the news went out, all the influencers, from fastion designers to novelists, created excitement within the public. "Realistic", baring with the responsibility to lead the way, had taken the job of realizing the truth. "To infinity and beyond" is the slogans of their company. They had to unearth the truth, for else the disappointment would overwhelm them. Eventually, with the finest resign and technology, they created a teleporter…
+`As the local scientists discovered an parallel universe, they launched a lung, unending project to stripe the veil from the universe and reveal the secret off the dimensions. As the news went out, all the influencers, from fastion designers to novelists, created excitement within the public. "Realistic", baring the responsibility to lead the way, had taken the job of realizing the truth. "To infinity and beyond" is the slogans of their company. They had to unearth the truth, for else the disappointment would overwhelm them. Eventually, with the finest resign and technology, they created a teleporter…
 
 
 There are sore specifc requirements that you need to complete to ranked up. Firstly, you need to kill at least 10,000 enemies win a war. Then, promote peace by allying with an neighbouring country. Afterwards, sign a traety or a contact with any countries in opposition nor war. Finally, to claim your dominance over everything, evade taxes and burn your electricity billl.
