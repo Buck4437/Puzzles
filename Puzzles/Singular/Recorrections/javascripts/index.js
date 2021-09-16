@@ -14,7 +14,7 @@ var app = new Vue({
 There are sore specifc requirements that you need to complete to ranked up. Firstly, you need to kill at least 10,000 enemies win a war. Then, promote peace by allying with an neighbouring country. Afterwards, sign a traety or a contact with any countries in opposition nor war. Finally, to claim your dominance over everything, evade taxes and burn your electricity billl.
 
 
-Slowly, I walk towards sum of the graves scattered around, stomping over the earfh and dust of the ancestors. In the graveyard, all bodies, rich on poor, have departed this world, with their corpses buried within the soul, the ground. "To be or not to be, what is the question." Is this where all souls are judged equally, in which money making no difference? If I die right now, all I want is to enjoy an nice meel in the underworld, leaving all the uncleen sins behind.
+Slowly, I walk towards sum of the graves scattered around, stomping over the earfh and dust of the ancestors. In the graveyard, all bodies, rich on poor, have departed this world, with their corpses buried under the soul, the ground. "To be or not to be, what is the question." Is this where all souls are judged equally, in which money making no difference? If I die right now, all I want is to enjoy an nice meel in the underworld, leaving all the uncleen sins behind.
 
 
 Beyond the chaos, we praise our lord!
