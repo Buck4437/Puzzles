@@ -19,3 +19,7 @@
 	padding: 8px;
 	background-color: #FFE;
 }
+
+.score {
+    font-weight: bold;
+}
