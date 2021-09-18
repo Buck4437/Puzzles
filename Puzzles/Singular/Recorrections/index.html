@@ -11,8 +11,9 @@
         <div id="app">
             <base-puzzle :title="title" :answer="answer" :nudge="nudge">
                 <div class="content">
-                    <div v-for="passage in passages" class="passage">
-                        <div v-html="passage.text.replaceAll('\n', '<br>')"></div>
+                    <div v-for="passage in passages" class="sheet">
+                        <div v-html="passage.text.replaceAll('\n', '<br>')"
+                             class="text"></div>
                         <br>
                         <div class="score">
                             Score: {{passage.score}}
