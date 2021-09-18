@@ -5,7 +5,7 @@ var app = new Vue({
         answer: "BLUNDER",
         nudge: {
             "BLENDER": "What is the original word?",
-            "ADUMBCARELESSMIXER": "You are on the right path!"
+            "ADUMBCARELESSMIXER": "",
         },
         passages: [
             {
