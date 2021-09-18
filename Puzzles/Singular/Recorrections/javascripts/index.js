@@ -1,10 +1,10 @@
+"BLENDER": "What is the original word?",
 var app = new Vue({
     el: "#app",
     data: {
         title: "Recorrections",
         answer: "BLUNDER",
         nudge: {
-            "BLENDER": "What is the original word?",
             "ADUMBCARELESSMIXER": "",
         },
         passages: [
@@ -13,7 +13,7 @@ var app = new Vue({
                 score: 6
             },
             {
-                text: `There are sore specifc requirements that you need to complete to ranked up. Firstly, you need to kill at least 10,000 enemies win a war. Then, promote peace by allying with an neighbouring country. Afterwards, sign a traety or a contact with any countries in opposition nor war. Finally, to claim your dominance over everything, evade taxes and burn your electricity billl.`,
+                text: `There are sore specifc requirements that you need to complete to get some awesome ranked. Firstly, you need to kill at least 10,000 enemies win a war. Then, promote peace by allying with an neighbouring country. Afterwards, sign a traety or a contact with any countries in opposition nor war. Finally, to claim your dominance over everything, evade taxes and burn your electricity billl.`,
                 score: 7
             },
             {
