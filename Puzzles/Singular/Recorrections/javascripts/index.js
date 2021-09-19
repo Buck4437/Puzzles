@@ -1,11 +1,11 @@
-"BLENDER": "What is the original word?",
 var app = new Vue({
     el: "#app",
     data: {
         title: "Recorrections",
         answer: "BLUNDER",
         nudge: {
-            "ADUMBCARELESSMIXER": "",
+            "BLENDER": "What is the original word?",
+            "ADUMBCARELESSMIXER": ""
         },
         passages: [
             {
