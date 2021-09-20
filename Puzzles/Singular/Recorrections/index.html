@@ -11,13 +11,19 @@
         <div id="app">
             <base-puzzle :title="title" :answer="answer" :nudge="nudge">
                 <div class="content">
-                    <div v-for="passage in passages" class="sheet">
+                    <div v-for="passage in passages" class="sheet yellow">
                         <div v-html="passage.text.replaceAll('\n', '<br>')"
                              class="text"></div>
                         <br>
                         <div class="score">
                             Score: {{passage.score}}
                         </div>
+                    </div>
+                    <div class="sheet red">
+                        {{notes}}
+                        <ul>
+                            <ol v-for="word in wordlist.split('\n')">{{word}}</ol>
+                        </ul>
                     </div>
                 </div>
             </base-puzzle>

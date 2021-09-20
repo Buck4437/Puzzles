@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .sheet {
@@ -17,7 +17,14 @@
 	font-size: 16px;
 	border: 2px solid black;
 	padding: 8px;
-	background-color: #FFE;
+}
+
+.yellow {
+    background-color: #FFE;
+}
+
+.red {
+    background-color: #FEE;
 }
 
 .text {
