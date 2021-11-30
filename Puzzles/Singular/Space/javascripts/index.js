@@ -6,7 +6,7 @@ var app = new Vue({
         nudge: {},
         equations:
 `-8x+5y-z=0|9x+4y-9z=0|European venomous snake (5)
--5x+9y-7z=-100|2x-10y+6z=56|Here we go ___... (5)
+-5x+9y-7z=-100|2x-10y+6z=56|Here we go ___ ... (5)
 -9x-6y+9z=-282|5x-y+7z=-44|JetBlue or Delta (7)
 -4x-9y+2z=-40|0x+5y-2z=-12|Highly impress (5)
 -5x-9y+5z=-16|3x-10y-8z=199|Tack on (6)
@@ -29,7 +29,7 @@ x+7y-10z=63|9x-10y+10z=-68|Long-headed animal (5)
 x+y+6z=-16|2x+8y+8z=-82|Be against (6)
 0x-9y+6z=3|2x+3y+2z=5|Picks from a menu (6)
 x-2y+8z=-134|6x-y+z=8|Riverbank mammal (5)
-x+2y+4z=31|2x+7y-3z=155|D-Day invasion codename (8)
+x+2y+4z=31|2x+7y-3z=155|Operation ___, D-Day invasion codename (8)
 -9x-10y+2z=-138|10x+4y+3z=-7|They make wool (5)
 -9x-8y-2z=-87|-x-4y-10z=29|Frosty, e.g. (6)
 -8x+6y+4z=-92|-4x-4y-3z=72|Tough-disciplined (6)
