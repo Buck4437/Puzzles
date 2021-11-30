@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Recorrections</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="stylesheet" href="./../../../Global Components/styles.css">
+    </head>
+    <body>
+        <div id="app">
+            <base-puzzle :title="title" :answer="answer" :nudge="nudge">
+                <div class="content">
+                    <div class="eqs-con">
+                        <div v-for="i in equations.split('\n')" class="eqs">
+                            <div class="bracket">
+                                {
+                            </div>
+                            <div class="eq-con">
+                                <div v-for="j in i.split('|')" class="equations">
+                                    {{j}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div v-for="v in vectors.split('\n')" class="vector">
+                        {{v}}
+                    </div>
+                </div>
+            </base-puzzle>
+        </div>
+    </body>
+    <script src="../../../Libraries/vue.js"></script>
+    <script src="../../../Global Components/Components/BasePuzzle.js"></script>
+    <script src="javascripts/index.js"></script>
+</html>
