@@ -2,7 +2,7 @@ var app = new Vue({
     el: "#app",
     data: {
         title: "License",
-        flavour: "Drivers like license plate that relates to themselves.",
+        flavour: "Drivers like license plates that relate to themselves.",
         answer: "SERIALNUMBER",
         images: [
             3,4,2,3,3,
