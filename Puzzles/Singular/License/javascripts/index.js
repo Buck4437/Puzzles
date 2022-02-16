@@ -25,10 +25,5 @@ K3848
 J35531
 X1247
 D1246`.split("\n")
-},
-    methods: {
-        char(num) {
-            return String.fromCodePoint(num + 64)
-        }
     }
 });
