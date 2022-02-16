@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>License Plate</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="stylesheet" href="./../../../Global Components/styles.css">
+    </head>
+    <body>
+        <div id="app">
+            <base-puzzle :title="title" :flavour="flavour" :answer="answer">
+                <template v-slot:flavour-text>{{flavour}}</template>
+                <div class="licenses">
+                    <div class="con" v-for="(num, i) in images">
+                        <div class="li-head">
+                            Driver License
+                        </div>
+                        <div class="img-con">
+                            <img :src="'src/'+(i+1)+'.jpg'"><span>Type: {{char(num)}}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="plates">
+                    <div class="con plate-con" v-for="num of plates">
+                        {{num}}
+                    </div>
+                </div>
+            </base-puzzle>
+        </div>
+    </body>
+    <script src="../../../Libraries/vue.js"></script>
+    <script src="../../../Global Components/Components/BasePuzzle.js"></script>
+    <script src="javascripts/index.js"></script>
+</html>

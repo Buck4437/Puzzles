@@ -1,0 +1,45 @@
+* {
+    font-family: monospace;
+    color: black;
+}
+
+.licenses, .plates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.li-head {
+    background-color: blue;
+    color: white;
+}
+
+.con {
+    width: 300px;
+    margin: 8px;
+    border: 2px solid black;
+}
+
+.img-con {
+    padding: 8px;
+    display: block;
+    text-align: left;
+}
+
+img {
+    padding-right: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.plate-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: yellow;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+}
