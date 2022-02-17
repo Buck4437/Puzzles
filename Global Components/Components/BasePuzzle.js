@@ -87,6 +87,9 @@ Vue.component("base-puzzle", {
             return !!this.$slots[name] || !!this.$scopedSlots[name];
         }
     },
+    mounted() {
+        document.title = this.title;
+    },
     template: `
     <div class="COMPONENT base-puzzle">
         <div class="title">{{title}}</div>
