@@ -67,7 +67,7 @@ var app = new Vue({
             this.errorText = str;
             this.hasError = true;
         },
-        removeError(str) {
+        removeError() {
             this.errorText = "";
             this.hasError = false;
         },
