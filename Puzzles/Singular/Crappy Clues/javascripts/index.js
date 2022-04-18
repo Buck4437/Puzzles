@@ -9,7 +9,7 @@ var app = new Vue({
 Kind of a rbchi tree (5)
 Even aabcc oddea -Conclusion- (4)
 Area, Absolute, and RAC in TT are theoretical (8)
-Clay in crushed talc (4)
+Clay from crushed talc (4)
 Desc. error: "---> New <--- testament smell" (5)
 Daughter (Acttwo): flipped, reversed, and confrontation! (6)
 Qwertyuippasdfgh jklzxcvbnmdbaco nbvcxzlkjhgfds contains meat (5)
