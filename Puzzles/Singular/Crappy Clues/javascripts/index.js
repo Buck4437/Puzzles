@@ -12,7 +12,7 @@ var app = new Vue({
 9: Clay from crushed talc (4)
 3: Desc. error: "---> New <--- testament smell" (5)
 4: Daughter (Acttwo): flipped, reversed, and confrontation (3,3)
-8: Qwertyuippasdfgh jklzxcvbnmdbaco nbvcxzlkjhgfds contains meat (5)
+8: Qwertyuiopasdb aco nbvcxzlkjhgfds contains meat (5)
 2: Initials of a crazily-easily-and-stupidly-enumerated halt (5)
 1: (New) a cat! (3)
 12: Synchronize a fall echo (4)
