@@ -5,7 +5,7 @@ var app = new Vue({
         flavour: "Charlie has created a couple of cryptic, yet crappy clues.",
         answer: "CHAOS",
         clues:
-`Bread sauces container contain some flavourings (6)
+`Bread sauces containers contain some flavourings (6)
 Kind of a rbchi tree (5)
 Even aabcc oddea -Conclusion- (4)
 Area, Absolute, and RAC in TT are theoretical (8)
