@@ -1,0 +1,12 @@
+* {
+    font-family: monospace;
+    color: black;
+}
+
+.clues {
+    padding-top: 32px;
+}
+
+.clues div {
+    padding: 8px;
+}
