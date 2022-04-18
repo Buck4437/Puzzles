@@ -15,7 +15,7 @@ Daughter (Acttwo): flipped, reversed, and confrontation (3, 3)
 Qwertyuippasdfgh jklzxcvbnmdbaco nbvcxzlkjhgfds contains meat (5)
 Initials of a crazily-easily-and-stupidly-enumerated halt (5)
 (New) a cat! (3)
-Synchronization - a capsize echo (4)
+Synchronization - a fall echo (4)
 <br> <a> Cod confuses snake (5)
 A 0.02777777777777777777777777777... yard move (4)`.split("\n")
     }
