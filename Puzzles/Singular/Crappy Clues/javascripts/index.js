@@ -2,7 +2,7 @@ var app = new Vue({
     el: "#app",
     data: {
         title: "Crappy Clues",
-        flavour: "Charlie has created a couple of cryptic, yet crappy clues.",
+        flavour: "Charlie has created a couple of cryptic, yet crappy clues - there's no symmetry!",
         answer: "CHAOS",
         clues:
 `6. Bread sauces containers contain some flavourings (6)
