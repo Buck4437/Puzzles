@@ -4,6 +4,10 @@ let answerChecker = {
         nudge: {
             type: Object,
             default: () => {}
+        },
+        alphanum: {
+            type: Boolean,
+            default: false
         }
     },
     data() {
@@ -35,7 +39,7 @@ let answerChecker = {
         display() {
             switch (this.state) {
                 case this.CORRECT:
-                    return `${this.input} is correct!`
+                    return `${this.answer} is correct!`
                 case this.CLOSE:
                     return `${this.input} is close! ${this.nudgeTable[this.input]}`
                 default:
@@ -54,7 +58,7 @@ let answerChecker = {
         },
         strip(str) {
             return str.split("")
-                      .filter(s => s.match(/[a-zA-Z]/))
+                      .filter(s => s.match(this.alphanum ? /[a-zA-Z\d]/ : /[a-zA-Z]/))
                       .join("").toUpperCase();
         }
     },
@@ -80,7 +84,8 @@ Vue.component("base-puzzle", {
     props: {
         title: String,
         answer: String,
-        nudge: Object
+        nudge: Object,
+        alphanum: Boolean
     },
     methods: {
         hasSlot(name = "default") {
@@ -93,7 +98,7 @@ Vue.component("base-puzzle", {
     template: `
     <div class="COMPONENT base-puzzle">
         <div class="title">{{title}}</div>
-        <answer-checker :answer="answer" :nudge="nudge" class="checker"></answer-checker>
+        <answer-checker :answer="answer" :nudge="nudge" :alphanum="alphanum" class="checker"></answer-checker>
         <div v-if="hasSlot('flavour-text')" class="flavour-text">
             <slot name="flavour-text"/>
         </div>

@@ -3,7 +3,7 @@ var app = new Vue({
     data: {
         title: "License",
         flavour: "Drivers like license plates that relate to themselves.",
-        answer: "SERIALNUMBER",
+        answer: "SERIAL NUMBER",
         images: [
             2,4,1,2,2,
             4,2,3,3,2,
