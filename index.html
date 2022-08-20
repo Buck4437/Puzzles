@@ -5,6 +5,18 @@
         <title>Buck's puzzles page</title>
     </head>
     <body>
-        use / to navigate
+        <div id="app">
+            <h2>Buck's puzzle page</h2>
+            <h3>A place where I don't care about styling</h3>
+            I have written some puzzles over the years, you can find all of them here.<br>
+            <h3>Singulars</h3>
+            <i>Sorted chronologically. 
+                These puzzles are written separately and are independent of one another. Qualities of puzzles may vary.</i>
+            <ul>
+                <li v-for="item in singulars"><a :href="'Puzzles/Singular/' + item">{{item}}</a></li>
+            </ul>
+        </div>
     </body>
+    <script src="Libraries/vue.js"></script>
+    <script src="index.js"></script>
 </html>
