@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Loading...</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="stylesheet" href="./../../../Global Components/styles.css">
+    </head>
+    <body>
+        <div id="app">
+            <base-puzzle :title="title" :answer="answer">
+                <template v-slot:flavour-text>
+                    You enjoy learning all kinds of celestial bodies, from the Sun to the Saturn.
+                </template>
+                <div class="content">
+                    Mars	2<br>
+                    Jupiter	4<br>
+                    Saturn	6<br>
+                    Venus	10<br>
+                    Sun	    5<br>
+                    Mercury	3<br>
+                    Moon	2<br>
+                </div>
+            </base-puzzle>
+        </div>
+    </body>
+    <script src="../../../Libraries/vue.js"></script>
+    <script src="../../../Global Components/Components/BasePuzzle.js"></script>
+    <script src="javascripts/index.js"></script>
+</html>
