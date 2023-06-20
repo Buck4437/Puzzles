@@ -7,7 +7,7 @@ var app = new Vue({
         Start at the station closest to Sherlock Holmes' residence. Ride 2 stops. Exit the train. Enter the train. Ride to the terminal. Read the second letter.
         Start at the station that starts with "Ø". Ride 1 stop such that the next stop is an intersection. Ride 15 stops along the same direction. Read the second letter.
         Start at the station in Ukraine constructed in 1927-1932. Ride 15 stops. Read the fourth letter.
-        Start at the Ginza station. Ride 3 stops to a major interchange. Read the second letter.
+        Start at Ginza. Ride 3 stops to a major interchange. Read the second letter.
         Start at the busiest station. Alight at platform with number greater than 10. Ride 15 stops. Read the third letter.
         Start at the busiest station. Ride 1 stop to a station that starts with a T.  Exit the train. Enter the train. Ride 38 stops. Read the ninth letter.
         Start at the station whose translated name is "Avenue of the Americas". Ride 14 stops. Read the 6th letter.
