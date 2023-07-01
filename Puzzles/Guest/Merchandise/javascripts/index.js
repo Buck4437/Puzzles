@@ -23,7 +23,7 @@ var app = new Vue({
         This music group sells a video game company. [5]
         This music group sells the energy range of unexcited electrons. [3]
         This music group sells a type of mineral formation. [4]
-        This music group sells a cable tie, in Japanese. [3]
+        This music group sells a cable tie in Japan. [3]
         This music group sells a well-known rhythm game. [3]
         This music group sells a kind of medical equipment. [7]
         This music group sells illegal goods. [3]
