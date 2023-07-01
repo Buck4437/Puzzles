@@ -18,11 +18,11 @@ var app = new Vue({
             expert: "These musical groups named themselves after the merch they sell."
         },
         expertClues: 
-        `This music group sells a video recording software. [2]
+        `This music group sells a video recording software. [6]
         This music group sells Internet access technology. [3]
         This music group sells a video game company. [5]
         This music group sells the energy range of unexcited electrons. [3]
-        This music group sells a type of mineral formation. [4]
+        This music group sells a type of mineral formation. [5]
         This music group sells a cable tie in Japan. [3]
         This music group sells a well-known rhythm game. [3]
         This music group sells a kind of medical equipment. [7]
