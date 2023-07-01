@@ -9,7 +9,7 @@ var app = new Vue({
         }
     },
     data: {
-        expertMode: false,
+        expertMode: true,
 
         title: "Merchandise",
         answer: "COALESCENCE",
