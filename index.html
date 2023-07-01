@@ -10,10 +10,17 @@
             <h3>A place where I don't care about styling</h3>
             I have written some puzzles over the years, you can find all of them here.<br>
             <h3>Singulars</h3>
-            <i>Sorted chronologically. 
-                These puzzles are written separately and are independent of one another. Qualities of puzzles may vary.</i>
+            <i>Sorted chronologically. These puzzles are written separately 
+               and are independent of one another. Qualities of puzzles may vary.</i>
             <ul>
                 <li v-for="item in singulars"><a :href="'Puzzles/Singular/' + item.link">{{item.name}}</a></li>
+            </ul>
+            <h3>Guest Puzzles</h3>
+            <i>Sorted chronologically. These puzzles are written by other people</i><br>
+            <i>Some puzzles have a casual version. It makes the puzzle easier,
+               but both casual and expert versions should be solvable on its own</i>
+            <ul>
+                <li><a href="Puzzles/Guest/Merchandise">Merchandise (Written by minghinshi)</a></li>
             </ul>
         </div>
     </body>

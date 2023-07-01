@@ -99,6 +99,9 @@ Vue.component("base-puzzle", {
     <div class="COMPONENT base-puzzle">
         <div class="title">{{title}}</div>
         <answer-checker :answer="answer" :nudge="nudge" :alphanum="alphanum" class="checker"></answer-checker>
+        <div v-if="hasSlot('header')">
+            <slot name="header"/>
+        </div>
         <div v-if="hasSlot('flavour-text')" class="flavour-text">
             <slot name="flavour-text"/>
         </div>

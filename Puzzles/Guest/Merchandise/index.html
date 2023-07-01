@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Merchandise</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="stylesheet" href="./../../../Global Components/styles.css">
+    </head>
+    <body>
+        <div id="app">
+            <base-puzzle :title="title" :answer="answer">
+                <template v-slot:header>
+                    <div class="header">
+                        <i class="author">Written by minghinshi</i>
+                        <button @click="expertMode = !expertMode">
+                            See {{expertMode ? "Casual" : "Expert"}} version
+                        </button>
+                    </div>
+                    <hr>
+                </template>
+
+                <template v-slot:flavour-text><span class="flavour" v-html="currentFlavourText"></span></template>
+
+                <div v-if="expertMode">
+                    <table>
+                        <template v-for="clue in expertClues"><tr><td>{{clue}}</td></tr></template>
+                    </table>
+                </div>
+
+                <div v-else>
+                    <table>
+                        <tr>
+                            <td>This band sells a video recording software.</td>
+                            <td>_ _ _ _ _ <span class="red">_</span> _ _</td>
+                        </tr>
+                        <tr>
+                            <td>This band sells Internet access technology.</td>
+                            <td>_ _ <span class="red">_</span> _ _ _ _ _ _</td>
+                        </tr>
+                        <tr>
+                            <td>This band sells a video game company.</td>
+                            <td>_ _ _ _ <span class="red">_</span> _ &nbsp; _ _ _ _ _</td>
+                        </tr>
+                        <tr>
+                            <td>This band sells the energy range of unexcited electrons.</td>
+                            <td>_ _ <span class="red">_</span> _ _ _ _ &nbsp; _ _ _ _</td>
+                        </tr>
+                        <tr>
+                            <td>This band sells a type of mineral formation.</td>
+                            <td>_ _ _ _ <span class="red">_</span> _ &nbsp; _ _ _ _</td>
+                        </tr>
+                        <tr>
+                            <td>This band sells a cable tie, in Japanese.</td>
+                            <td>_ _ <span class="red">_</span> _ _ _ _ &nbsp; _ _ _ _</td>
+                        </tr>
+                        <tr>
+                            <td>This band sells a well-known rhythm game.</td>
+                            <td>_ _ <span class="red">_</span> _ &nbsp; _ _ _ _</td>
+                        </tr>
+                        <tr>
+                            <td>This band sells a kind of medical equipment.</td>
+                            <td>_ _ _ _ _ _ <span class="red">_</span></td>
+                        <tr>
+                            <td>This band sells illegal goods.</td>
+                            <td>_ _ <span class="red">_</span> _ _ _ _ _ _ _</td>
+                        </tr>
+                        <tr>
+                            <td>This band sells a species — a famous one is named Crash.</td>
+                            <td>_ _ _ _ _ <span class="red">_</span> _ _ _</td>
+                        </tr>
+                        <tr>
+                            <td>This band sells a "weapon" seen in classrooms.</td>
+                            <td>_ _ _ _ <span class="red">_</span> _ &nbsp; _ _ _ _</td>
+                        </tr>
+                    </table>
+                </div>
+            </base-puzzle>
+        </div>
+    </body>
+    <script src="../../../Libraries/vue.js"></script>
+    <script src="../../../Global Components/Components/BasePuzzle.js"></script>
+    <script src="javascripts/index.js"></script>
+</html>
