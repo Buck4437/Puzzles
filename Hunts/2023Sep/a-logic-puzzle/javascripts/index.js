@@ -20,13 +20,13 @@ var app = new Vue({
             "TURNED A": partial
         },
         letterGrid: 
-        `T	G	S	A	T	E	S
-        H	H	S	A	A	D	S
-        S	I	I	O	U	L	E
-        C	S	L	H	U	E	I
-        T	E	S	S	S	O	W
-        R	I	N	C	E	L	U
-        I	E	T	W	H	S	A`.split("\n").map(x => x.split("\t")),
+        `T	G	S	A	T	E	H
+        I	H	S	A	A	D	S
+        S	I	S	N	O	W	E
+        C	U	L	H	U	S	I
+        T	E	E	S	L	O	W
+        R	I	E	C	S	L	U
+        I	E	T	S	H	S	A`.split("\n").map(x => x.split("\t")),
         clueGrid: [
             ["6 > 3 AND 9 > 12", "T∨F", "?13.jpg", "?14.jpg", "X ↔ X", "?16.jpg", "?17.jpg"],
             ["not (true or false)", "Function Q(X,Y) checks if X+Y=0. Q(1,1)=?", "Either (X < 10) or (X ≥ 10) is true, but not both.", "?24.jpg", "?25.jpg", "Inverse of True", "At least one statement is true: 1 is a prime number; 4228 cannot be written as a sum of two prime numbers."],
