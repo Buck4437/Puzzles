@@ -35,6 +35,6 @@
     color: red
 }
 
-.SUBCOMPONENT.base-puzzle.answer-checker .result.close {
+.SUBCOMPONENT.base-puzzle.answer-checker .result.partial {
     color: orange
 }

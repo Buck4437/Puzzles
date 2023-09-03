@@ -5,7 +5,7 @@ var app = new Vue({
         answer: "BLUNDER",
         nudge: {
             "BLENDER": "What is the original word?",
-            "ADUMBCARELESSMIXER": ""
+            "ADUMBCARELESSMIXER": "You are on the right track."
         },
         notes: `Teacher's notes: You may find this word bank useful for your recorrections.`,
         wordlist: `CLOSE

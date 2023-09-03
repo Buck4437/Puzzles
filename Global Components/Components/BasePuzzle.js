@@ -3,11 +3,17 @@ let answerChecker = {
         answer: String,
         nudge: {
             type: Object,
-            default: () => {}
+            default: () => {
+                return {};
+            }
         },
-        alphanum: {
-            type: Boolean,
-            default: false
+        strip: {
+            type: Function,
+            default: function(str) {
+                return str.split("")
+                          .filter(s => s.match(/[a-zA-Z]/))
+                          .join("").toUpperCase();
+            }
         }
     },
     data() {
@@ -17,14 +23,14 @@ let answerChecker = {
             state: "",
             CORRECT: "correct",
             INCORRECT: "incorrect",
-            CLOSE: "close"
+            PARTIAL: "partial"
         }
     },
     computed: {
         answerTable() {
             let table = {};
             for (let key in this.nudge) {
-                table[this.strip(key)] = this.CLOSE;
+                table[this.strip(key)] = this.PARTIAL;
             }
             table[this.strip(this.answer)] = this.CORRECT;
             return table;
@@ -40,8 +46,8 @@ let answerChecker = {
             switch (this.state) {
                 case this.CORRECT:
                     return `${this.answer} is correct!`
-                case this.CLOSE:
-                    return `${this.input} is close! ${this.nudgeTable[this.input]}`
+                case this.PARTIAL:
+                    return `${this.nudgeTable[this.input]}`
                 default:
                     return `${this.input} is incorrect.`
             }
@@ -55,11 +61,6 @@ let answerChecker = {
             let input = this.strip(this.textField);
             this.input = input;
             this.state = this.checkAnswer(input);
-        },
-        strip(str) {
-            return str.split("")
-                      .filter(s => s.match(this.alphanum ? /[a-zA-Z\d]/ : /[a-zA-Z]/))
-                      .join("").toUpperCase();
         }
     },
     template: `
@@ -85,7 +86,7 @@ Vue.component("base-puzzle", {
         title: String,
         answer: String,
         nudge: Object,
-        alphanum: Boolean
+        strip: Function
     },
     methods: {
         hasSlot(name = "default") {
@@ -98,7 +99,7 @@ Vue.component("base-puzzle", {
     template: `
     <div class="COMPONENT base-puzzle">
         <div class="title">{{title}}</div>
-        <answer-checker :answer="answer" :nudge="nudge" :alphanum="alphanum" class="checker"></answer-checker>
+        <answer-checker :answer="answer" :nudge="nudge" :strip="strip" class="checker"></answer-checker>
         <div v-if="hasSlot('header')">
             <slot name="header"/>
         </div>
