@@ -29,6 +29,16 @@ const app = new Vue({
             {
                 name: "Crappy Clues",
                 link: "Crappy Clues"
+            },
+            {
+                name: "Line",
+                desc: "Originally written for a mini-hunt",
+                link: "Line"
+            },
+            {
+                name: "A Logic Puzzle",
+                desc: "2023 Sep, originally written for a mini-hunt",
+                link: "A-logic-puzzle"
             }
         ]
     }

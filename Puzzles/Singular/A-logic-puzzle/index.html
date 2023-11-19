@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Loading...</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="stylesheet" href="./../../../Global Components/styles.css">
+    </head>
+    <body>
+        <div id="app">
+            <base-puzzle :title="title" :answer="answer" :nudge="nudge" :strip="strip">
+                <div class="content">
+                    <table class="clue-grid">
+                        <tr v-for="row in clueGrid">
+                            <td v-for="clue in row" class="clue-cell">
+                                <span v-if="clue.charAt(0) != '?'">{{clue}}</span>
+                                <image v-else :src="'img/' + clue.substring(1)">
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="letter-grid">
+                        <tr v-for="row in letterGrid">
+                            <td v-for="letter in row" class="letter-cell">{{letter}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </base-puzzle>
+        </div>
+    </body>
+    <script src="../../../Libraries/vue.min.js"></script>
+    <script src="../../../Global Components/Components/BasePuzzle.js"></script>
+    <script src="javascripts/index.js"></script>
+</html>
