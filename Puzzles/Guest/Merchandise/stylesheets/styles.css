@@ -3,6 +3,10 @@
     color: black;
 }
 
+a {
+    align-self: center;
+}
+
 .header {
     padding: 8px;
     display: flex;
