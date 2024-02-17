@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="theme-normal">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Merchandise</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="stylesheet" href="./../../../Global Components/styles.css">
+    </head>
+    <body>
+        <div id="app">
+            <h1>Solution to Merchandise</h1>
+            <p>
+                We are given a list of clues in this puzzle, so we should try to solve them.
+                Most clues are ambiguous, but a couple of the easier clues can be solved
+                with more confidence, such as "energy range of unexcited electrons",
+                "cable tie in Japan", and "a species - a famous one is named Crash".
+            </p>
+
+            <p>
+                Combined with the flavourtext of this puzzle, we may notice that all answer
+                contains the substring "BAND". With this, we can solve all the clues:
+            </p>
+
+            <table>
+                <tr><td>Clues</td><td>Answers</td><td>Extraction</td></tr>
+                <template v-for="(clue, i) in expertClues">
+                    <tr>
+                        <td>{{clue}}</td>
+                        <td>{{answers[i]}}</td>
+                        <td>{{answer[i]}}</td>
+                    </tr>
+                </template>
+            </table>
+
+            <p>
+                Reading the extracted letter gives the answer <b>COALESCENCE</b>.
+            </p>
+
+            <h2>Buck's Note</h2>
+            <p>
+                I wanted to replace the clue for "KESSOKU BAND" with "HUSBAND",
+                but I didn't have a good clue for it, and also because the clue is
+                a good break-in for being easily searchable and thematic.
+            </p>
+            <p>
+                While writing the solution, I also realised that the romanisation for
+                "KESSOKU BAND" is wrong (it should be "KESSOKU BANDO", with the extra
+                "O" at the end. While it doesn't affect the solving, I should've 
+                replaced the answer with something else.
+            </p>
+            <p>
+                The original puzzle can be found here:
+            </p>
+            <img src="src/1.png" height="400">
+        </div>
+    </body>
+    <style> 
+        td {
+            border: 2px solid black;
+            padding: 8px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+    <script src="../../../Libraries/vue.js"></script>
+    <script src="../../../Global Components/Components/BasePuzzle.js"></script>
+    <script src="javascripts/index.js"></script>
+</html>

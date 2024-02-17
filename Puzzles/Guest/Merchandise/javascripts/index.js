@@ -28,6 +28,19 @@ var app = new Vue({
         This music group sells a kind of medical equipment. [7]
         This music group sells illegal goods. [3]
         This music group sells a species — a famous one is named Crash. [6]
-        This music group sells a "weapon" seen in classrooms. [5]`.split("\n")
+        This music group sells a "weapon" seen in classrooms. [5]`.split("\n"),
+        // For solution page
+        answers: 
+        `BANDICAM
+        BROADBAND
+        BANDAI NAMCO
+        VALENCE BAND
+        BANDED IRON
+        KESSOKU BAND
+        ROCK BAND
+        BANDAGE
+        CONTRABAND
+        BANDICOOT
+        RUBBER BAND`.split("\n")
     }
 })
