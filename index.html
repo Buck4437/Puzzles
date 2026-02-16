@@ -14,7 +14,7 @@
                and are independent of one another. Qualities of puzzles may vary.</i>
             <ul>
                 <li v-for="item in singulars">
-                    <a :href="'Puzzles/Singular/' + item.link">{{item.name}}</a>
+                    <a target="_blank":href="'Puzzles/Singular/' + item.link">{{item.name}}</a>
                     <template v-if="item.desc">
                         ({{item.desc}})
                     </template>
@@ -25,8 +25,21 @@
             <i>Some puzzles have a casual version. It makes the puzzle easier,
                but both casual and expert versions should be solvable on its own</i>
             <ul>
-                <li>2023 June: <a href="Puzzles/Guest/Merchandise">Merchandise (Written by minghinshi)</a></li>
+                <li>2023 June: <a target="_blank" href="Puzzles/Guest/Merchandise">Merchandise (Written by minghinshi)</a></li>
             </ul>
+            <h3> Hunt Puzzles </h3>
+            <i>Sorted chronologically. These puzzles were written for puzzlehunts.</i>
+            <div v-for="hunt in hunts">
+                <h4>{{hunt.name}}</h4>
+                <ul>
+                    <li v-for="item in hunt.puzzles">
+                        <a target="_blank" :href=item.link>{{item.name}}</a>
+                        <template v-if="item.desc">
+                            ({{item.desc}})
+                        </template>
+                    </li>
+                </ul>
+            </div>
         </div>
     </body>
     <script src="Libraries/vue.js"></script>
