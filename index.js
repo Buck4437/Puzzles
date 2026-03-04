@@ -47,6 +47,7 @@ const app = new Vue({
                 puzzles: [
                     {
                         name: "Jumping to Conclusions",
+                        desc: "(with Dan Simon)",
                         link: "https://puzzmon.world/puzzles/jumping_to_conclusions",
                     },
                     {
